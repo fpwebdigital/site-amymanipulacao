@@ -77,11 +77,11 @@
 	</section>
 	<div class="espaco"></div>
 
-<!--<div class="md-modal md-effect-8 md-show" id="modal-8">
+<div class="md-modal md-effect-8 md-show" id="modal-8">
 	<button class="linksaibamais2" onclick="$('#modal-8').removeClass('md-show');">Fechar</button>
 
   <div id="newsletter" class="md-content">
-    <img src="images/msg-carnaval.jpg" class="center-block img-responsive">
+    <img src="images/msg-pop.jpg" class="center-block img-responsive">
 
   </div>
 </div>
