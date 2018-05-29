@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+    <form method="post" action="upload.php" enctype="multipart/form-data">
+            <label>Selecione o arquivo: <input type="file" name="arquivo" size="45" /></label><br>
+              Nome: <input id="nome" type="text" name="nome" class="inputnome2" placeholder="Nome" required></input><br><br>
+              E-MAIL:<input id="email" type="email" name="email" class="inputnome2" placeholder="E-mail" required></input><br><br>
+              RG:<input id="rg" type="text" name="rg" class="inputnome2" placeholder="nome" required></input><br><br>
+              CPF:<input id="cpf" type="text" name="cpf" class="inputnome2" placeholder="Nome" required></input><br><br>
+              Endereço:<input id="end" type="text" name="end" class="inputnome2" placeholder="Nome" required></input><br><br>
+              Cidade:<input id="cidade" type="text" name="cidade" class="inputnome2" placeholder="Nome" required></input><br><br>
+         	  Telefone: <input id="telefone" type="tel" name="telefone" class="inputnome2" placeholder="Telefone" required></input><br><br>
+              Celular: <input id="celular" type="tel" name="celular" class="inputnome2" placeholder="Nome" required></input><br><br>
+              Observações:<input id="obs" type="text" name="obs" class="inputnome2" placeholder="Nome" required></input><br><br>
+         	  Está enviando algum arquivo em anexo?<input id="comercial" type="radio" name="gender" value="sim">  
+         	  <label for="sim">Sim</label>  
+         	  <input id="nao" type="radio" name="gender" value="nao">  
+         	  <label for="nao">Não</label><br><br>
+            <input type="submit" value="Enviar Arquivo" />
+        </form>
+</body>
+</html>

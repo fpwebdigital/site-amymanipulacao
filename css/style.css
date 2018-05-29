@@ -1,0 +1,137 @@
+html, body {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	overflow-x:hidden;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#FFF;
+}
+
+body {
+    font: 100.01% "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+    color: #333;
+    padding: 0;
+}
+
+body * {
+    line-height:1.22em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color:#4088b8;
+    clear: both;
+}
+
+h1 {
+}
+
+h2 {
+    color: #c8c8c8;
+		margin-top: -25px;
+}
+
+h3 {
+}
+
+h4 {
+    color: #333;
+    margin-bottom: -10px;
+}
+
+p {
+    margin: 10px 0;
+    clear: both;
+}
+
+ul, ol {
+    margin-left 0;
+}
+
+ul ul {
+    margin-bottom: 20px;
+}
+
+#wrap {
+	width:884px;
+    /*margin: 0 12%;*/
+}
+#banner {
+	width:960px;
+	margin:auto;
+    /*margin: 0 12%;*/
+}
+
+a {
+    color: #4088b8;
+}
+
+table {
+    font-size: inherit;
+    border: 1px solid #c8c8c8;
+}
+
+th {
+    background: #d8d8d8;
+    text-align: left;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+td {
+    background: #f8f8f8;
+    text-align: left;
+    padding: 5px;
+    vertical-align: top;
+}
+
+select, input, textarea {
+    font: 99% "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+}
+
+pre, code, tt, dt {
+    font: 100% monospace;
+    margin: 20px 0;
+}
+
+pre, blockquote {
+    padding: 15px;
+    background-color: #f0f0f0;
+    margin: 20px 0;
+    -moz-border-radius: 10px;
+}
+
+td pre {
+    font: 85% monospace;
+    padding: 5px;
+    margin: 5px 0;
+}
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}

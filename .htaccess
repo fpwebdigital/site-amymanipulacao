@@ -1,0 +1,26 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+redirect 301 /index.html http://www.amymanipulacao.com.br/inicio-farmacia-manipulacao-sp
+redirect 301 /quemsomos_amymanipulacao.html http://www.amymanipulacao.com.br/amy-farmacia-manipulacao-sp
+redirect 301 /laboratorio_amymanipulacao.html http://www.amymanipulacao.com.br/laboratorio-farmacia-manipulacao-sp
+redirect 301 /servicos_amymanipulacao.html http://www.amymanipulacao.com.br/servicos-farmacia-manipulacao-sp
+redirect 301 /receitaonline_amymanipulacao.html http://www.amymanipulacao.com.br/receita-online-farmacia-manipulacao-sp
+redirect 301 /localizacao_amymanipulacao.html http://www.amymanipulacao.com.br/localizacao-farmacia-manipulacao-sp
+redirect 301 /faleconosco_amymanipulacao.html http://www.amymanipulacao.com.br/contato-farmacia-manipulacao-sp
+
+
+RewriteRule ^inicio-farmacia-manipulacao-sp$ index.php [L]
+RewriteRule ^amy-farmacia-manipulacao-sp$ quemsomos.php [L]
+RewriteRule ^laboratorio-farmacia-manipulacao-sp$ laboratorio.php [L]
+RewriteRule ^servicos-farmacia-manipulacao-sp$ servicos.php [L]
+RewriteRule ^receita-online-farmacia-manipulacao-sp$ receita.php [L]
+RewriteRule ^localizacao-farmacia-manipulacao-sp$ localizacao.php [L]
+RewriteRule ^contato-farmacia-manipulacao-sp$ contato.php [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php70 .php .phtml
+# php -- END cPanel-generated handler, do not edit

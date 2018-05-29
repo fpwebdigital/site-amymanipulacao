@@ -1,0 +1,56 @@
+.btn {
+	border: none;
+	cursor: pointer;
+	margin: 15px 0px;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	height: 40px;
+	width: 100%;
+	font-family: 'Average Sans', sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+
+/* Button 2 */
+.btn-2 {
+	background: #e5818f;
+	color: #fff;
+	box-shadow: 0 4px #646265;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* Button 2a */
+.btn-2a {
+	border-radius: 0 0 2px 2px;
+}
+
+.btn-2a:hover {
+	box-shadow: 0 4px #b7b5b5;
+	top: 2px;
+}
+
+.btn-2a:active {
+	box-shadow: 0 0 #b7b5b5;
+	top: 6px;
+}
+
+/* Button 2h */
+.btn-2h {
+	border-radius: 5px;
+}
+
+.btn-2h:hover {
+	box-shadow: 0 4px #b7b5b5;
+	top: 2px;
+}
+
+.btn-2h:active {
+	box-shadow: 0 0 #b7b5b5;
+	top: 6px;
+}
+

@@ -1,0 +1,2 @@
+[21-Feb-2014 14:55:06 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in /home/farmaci3/public_html/upload/upload.php on line 21
+[21-Feb-2014 14:55:47 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in /home/farmaci3/public_html/upload/upload.php on line 21
