@@ -81,7 +81,7 @@
 	<button class="linksaibamais2" onclick="$('#modal-8').removeClass('md-show');">Fechar</button>
 
   <div id="newsletter" class="md-content">
-    <img src="images/msg-pop.jpg" class="center-block img-responsive">
+    <img src="images/msg-energia.jpg" class="center-block img-responsive">
 
   </div>
 </div>
